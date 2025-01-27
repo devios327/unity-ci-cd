@@ -6,7 +6,7 @@ public class MoveObject : MonoBehaviour
 
     void Update()
     {
-        // Получаем ввод с клавиатуры
+        // Получаем ввод с  клавиатуры
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
